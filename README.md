@@ -27,3 +27,15 @@ https://github.com/Kaggle/kaggle-environments/blob/master/kaggle_environments/en
 
 JSON schema:
 https://github.com/Kaggle/kaggle-environments/blob/master/kaggle_environments/envs/football/football.json
+
+
+# Training RL Agents
+Rule-based agent presented in Getting Started section is a good place to start, but things become more interesting with addition of Reinforcement Learning. For a quick example, you can have a look at the GFootball - train SEED RL agent notebook, which shows how to train a V-Trace agent using SEED RL.
+Kaggle Notebook might not be sufficient to train a comprehensive agent for the competition. There are a number of other alternatives worth mentioning:
+* Use GPU-enabled Kaggle Notebooks to speed up the training process. Note that this makes sense when training the agent is more expensive than running the environment.
+* Running training locally on your workstation / server(s). For ways on how to start that, have a look at Google Research Football GitHub repository. You can find instructions on how to train example PPO agent here.
+* You can give SEED RL a try. There is a nice blog-post from Warsaw University students who conducted a research project using Google Research Football environment and SEED RL.
+* It is possible to train your agent using any other RL framework or implementing your own.
+* Don't limit yourself to applying existing tools and methods. Try to invent better ways of training strong agents.
+
+
